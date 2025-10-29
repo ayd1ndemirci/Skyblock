@@ -1,17 +1,22 @@
 # SkyblockCore
-Skyblock Core of RedFox
-# Authors: ayd1ndemirci, OguzhanUmutlu, seri4lize
+Skyblock Core for RedFox
 
-# ACIKLAMA
-Bu proje, başlangıçta RedFox Skyblock olarak geliştirilmiş olup, proje sahibinin ilgi ve süreklilik kaybı nedeniyle aktif olarak devam ettirilememiştir. Bu nedenle, MC:BE topluluğuna örnek teşkil etmesi ve referans olarak kullanılabilmesi amacıyla paylaşıma açılmıştır.
+## Authors
+- ayd1ndemirci
+- OguzhanUmutlu
+- seri4lize
 
-# Teknolojiler
- - Kotlin
- - MongoDB
- - Redis
+## Description
+This project was initially developed as RedFox Skyblock. However, due to the project owner's loss of interest and inability to maintain it, active development was discontinued.  
+It has been made publicly available for the MC:BE community as an example and reference for educational and developmental purposes.
 
-# TEŞEKKÜRLER
- - Projede Güney Yılmaz adlı geliştirici tarafından kodlanmış bir eklenti var bu eklentiyi incelemek isterseniz ([Eklenti linki](https://github.com/guneyilmaz0/PermissionS))
- - OguzhanUmutlu ([githubunu kesinlikle inceleyin](https://github.com/OguzhanUmutlu))
- - seri4lize ([github](https://github.com/seri4lize))
- - Scoreboard eklentisi: ([repo linki](https://github.com/skh6075/GraphicScore-PNX))
+## Technologies
+- Kotlin
+- MongoDB
+- Redis
+
+## Thanks & References
+- A plugin developed by Güney Yılmaz is included in the project. If you want to explore it: [Plugin Link](https://github.com/guneyilmaz0/PermissionS)  
+- OguzhanUmutlu: [Check out GitHub](https://github.com/OguzhanUmutlu)  
+- seri4lize: [GitHub](https://github.com/seri4lize)  
+- Scoreboard plugin: [Repo Link](https://github.com/skh6075/GraphicScore-PNX)
