@@ -14,4 +14,4 @@ Bu proje, başlangıçta RedFox Skyblock olarak geliştirilmiş olup, proje sahi
  - Projede Güney Yılmaz adlı geliştirici tarafından kodlanmış bir eklenti var bu eklentiyi incelemek isterseniz ([Eklenti linki](https://github.com/guneyilmaz0/PermissionS))
  - OguzhanUmutlu ([githubunu kesinlikle inceleyin](https://github.com/OguzhanUmutlu))
  - seri4lize ([github](https://github.com/seri4lize))
- - Scoreboard eklentisi bana ait değil, bir repodan almıştım bulamadığım için koyamıyorum bulursam ekleyeceğim.
+ - Scoreboard eklentisi: ([repo linki](https://github.com/skh6075/GraphicScore-PNX))
