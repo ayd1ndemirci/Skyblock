@@ -1,0 +1,115 @@
+package redfox.skyblock.manager
+
+import cn.nukkit.Server
+import cn.nukkit.command.Command
+import redfox.factions.command.AdminChatCommand
+import redfox.skyblock.command.*
+import redfox.skyblock.command.group.*
+
+object CommandManager {
+
+    fun unregister() {
+        Server.getInstance().commandMap.getCommand("whitelist").unregister(Server.getInstance().commandMap)
+    }
+
+    fun register() {
+        var total = 0
+
+        fun registerCommand(name: String, command: Command) {
+            Server.getInstance().commandMap.register(name, command)
+            total++
+        }
+
+        registerCommand("eisim", ItemRenameCommand())
+        registerCommand("tamir", RepairCommand())
+        registerCommand("clearchat", ClearChatCommand())
+        registerCommand("clear", ClearCommand())
+        registerCommand("kelle", BountyCommand())
+        registerCommand("profil", ProfileCommand())
+        registerCommand("can", HealCommand())
+        registerCommand("doy", FeedCommand())
+        registerCommand("para", MoneyCommand())
+        registerCommand("klan", FactionsCommand())
+        registerCommand("r", ReplyCommand())
+        registerCommand("msg", MessageCommand())
+        registerCommand("ayarlar", SettingsCommnad())
+        registerCommand("hediye", GiftCommand())
+        registerCommand("kredi", CreditCommand())
+        registerCommand("addcredi", AddCreditCommand())
+        registerCommand("takecredi", TakeCrediCommand())
+        registerCommand("seecredi", SeeCrediCommand())
+        registerCommand("setcredi", SetCrediCommand())
+        registerCommand("lockchat", LockChatCommand())
+        //registerCommand("web", WebCommand())
+        registerCommand("playtime", PlayTimeCommand())
+        registerCommand("credits", CreditsCommand())
+        registerCommand("envtamir", InventoryRepairCommand())
+        registerCommand("mekan", WarpCommand())
+        registerCommand("status", StatusCommand())
+        registerCommand("joinmessage", JoinMessageCommand())
+        registerCommand("sc", AdminChatCommand())
+        //registerCommand("autosell", AutoSellCommnad())
+        registerCommand("addmoney", AddMoneyCommand())
+        registerCommand("takemoney", TakeMoneyCommand())
+        registerCommand("seemoney", SeeMoneyCommand())
+        registerCommand("setmoney", SetMoneyCommand())
+        registerCommand("givevip", GiveVIPCommand())
+        registerCommand("removevip", RemoveVIPCommand())
+        registerCommand("vipsurem", VIPCommand())
+        registerCommand("vipcontrol", VIPControlCommand())
+        registerCommand("extendallvip", ExtendAllVIPsCommand())
+        registerCommand("list", ListCommand())
+        registerCommand("kit", KitCommand())
+        registerCommand("buyu", EnchantCommand())
+        registerCommand("betakiti", BetaKitCommand())
+        registerCommand("discord", DiscordCommand())
+        registerCommand("fly", FlyCommand())
+        registerCommand("ptamir", PaidRepairComamnd())
+        registerCommand("vipbilgi", VIPInfoCommand())
+        registerCommand("yardim", HelpCommand())
+        registerCommand("arkadas", FriendCommand())
+        registerCommand("market", ShopCommand())
+        //registerCommand("home", HomeCommand())
+        registerCommand("haykir", ShoutCommand())
+        registerCommand("go", DailyRewardCommand())
+        registerCommand("sat", SellCommand())
+        registerCommand("rank", RankCommand())
+        registerCommand("kick", KickCommand())
+        registerCommand("mute", MuteCommand())
+        registerCommand("unmute", UnmuteCommand())
+        registerCommand("restart", RestartCommand())
+        registerCommand("tracker", TrackerCommand())
+        registerCommand("ban", BanCommand())
+        registerCommand("unban", UnbanCommand())
+        registerCommand("sethit", SetHitCommand())
+        registerCommand("ada", IslandCommand())
+        registerCommand("ping", PingCommand())
+        registerCommand("lobi", LobbyCommand())
+        registerCommand("alts", AltsCommand())
+        registerCommand("addgroup", AddGroupCommand())
+        registerCommand("defaultgroup", DefaultGroupCommand())
+        registerCommand("listgroup", ListGroupCommand())
+        registerCommand("removegroup", RemoveGroupCommand())
+        registerCommand("setformat", SetFormatCommand())
+        registerCommand("setgroup", SetGroupCommand())
+        registerCommand("setuperm", SetUPermCommand())
+        registerCommand("tagal", TakeGroupCommand())
+        registerCommand("tag", TagCommand())
+        registerCommand("tagver", GiveGroupCommand())
+        registerCommand("unsetuperm", UnsetUPermCommand())
+        registerCommand("whitelist", WhitelistCommand())
+        registerCommand("size", SizeCommand())
+        registerCommand("announcement", AnnouncementCommand())
+        registerCommand("center", CenterCommand())
+        registerCommand("badges", BadgesCommand())
+        registerCommand("tpa", TpaCommand())
+        registerCommand("tpak", TpaAcceptCommand())
+        registerCommand("tpar", TpaDenyCommand())
+        registerCommand("tpahere", TpaHereCommand())
+        registerCommand("hub", HubCommand())
+        registerCommand("itemlock", ItemLockCommand())
+        registerCommand("sicil", PunishmentHistoryCommand())
+        //registerCommand("auction", AuctionCommand())
+        Server.getInstance().logger.info("Toplam $total komut başarıyla aktif hale getirildi.")
+    }
+}

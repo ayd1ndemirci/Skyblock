@@ -1,0 +1,12 @@
+name: Core
+main: redfox.skyblock.Core
+version: "1.0.0"
+api: "2.0.0"
+authors: ["ayd1ndemirci", "OguzhanUmutlu", "seri4lize"]
+permissions:
+  redfox.vip:
+    description: Allows the player to use VIP features.
+    default: op
+  redfox.admin:
+    description: Allows the player to use admin commands.
+    default: op

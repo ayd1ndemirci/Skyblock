@@ -1,0 +1,112 @@
+{
+  "Bloklar": {
+    "image": "textures/ui/icon_recipe_nature",
+    "items": [
+      {
+        "name": "Taş",
+        "id": "minecraft:stone",
+        "meta": 0,
+        "price": 10
+      },
+      {
+        "name": "Kum",
+        "id": "minecraft:sand",
+        "meta": 0,
+        "price": 8
+      },
+      {
+        "name": "Meşe Tahtası",
+        "id": "minecraft:oak_planks",
+        "meta": 0,
+        "price": 12
+      },
+      {
+        "name": "Cam",
+        "id": "minecraft:glass",
+        "meta": 0,
+        "price": 15
+      }
+    ]
+  },
+  "Zırhlar": {
+    "image": "textures/items/iron_chestplate",
+    "items": [
+      {
+        "name": "Demir Göğüslük",
+        "id": "minecraft:iron_chestplate",
+        "meta": 0,
+        "price": 250
+      },
+      {
+        "name": "Demir Kask",
+        "id": "minecraft:iron_helmet",
+        "meta": 0,
+        "price": 180
+      },
+      {
+        "name": "Demir Pantolon",
+        "id": "minecraft:iron_leggings",
+        "meta": 0,
+        "price": 200
+      },
+      {
+        "name": "Demir Bot",
+        "id": "minecraft:iron_boots",
+        "meta": 0,
+        "price": 150
+      }
+    ]
+  },
+  "Silahlar": {
+    "image": "textures/items/iron_sword",
+    "items": [
+      {
+        "name": "Demir Kılıç",
+        "id": "minecraft:iron_sword",
+        "meta": 0,
+        "price": 200
+      },
+      {
+        "name": "Tahta Kılıç",
+        "id": "minecraft:wooden_sword",
+        "meta": 0,
+        "price": 50
+      },
+      {
+        "name": "Yay",
+        "id": "minecraft:bow",
+        "meta": 0,
+        "price": 150
+      },
+      {
+        "name": "Ok (x5)",
+        "id": "minecraft:arrow",
+        "meta": 0,
+        "price": 25
+      }
+    ]
+  },
+  "Yiyecekler": {
+    "image": "textures/items/apple",
+    "items": [
+      {
+        "name": "Elma",
+        "id": "minecraft:apple",
+        "meta": 0,
+        "price": 15
+      },
+      {
+        "name": "Ekmek",
+        "id": "minecraft:bread",
+        "meta": 0,
+        "price": 20
+      },
+      {
+        "name": "Pişmiş Et",
+        "id": "minecraft:cooked_beef",
+        "meta": 0,
+        "price": 30
+      }
+    ]
+  }
+}

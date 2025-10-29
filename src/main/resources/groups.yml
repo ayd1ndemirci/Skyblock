@@ -1,0 +1,136 @@
+Yönetici:
+  name: "Yönetici"
+  id: "Yönetici"
+  nameTagFormat: "§4%nickname%"
+  chatFormat: "§4%nickname% §8» §4§o%message%"
+  aliases: []
+  permissions: []
+  inheritance: []
+Geliştirici:
+  name: "Geliştirici"
+  id: "Geliştirici"
+  nameTagFormat: "§s%nickname%"
+  chatFormat: "§s%nickname% §8» §b%message%"
+  aliases: []
+  permissions: []
+  inheritance: []
+TY:
+  name: "Topluluk Yöneticisi"
+  id: "TY"
+  nameTagFormat: "§2%nickname%"
+  chatFormat: "§2%nickname% §8» §o§a%message%"
+  aliases: []
+  permissions: []
+  inheritance: []
+KD:
+  name: "Kıdemli Moderatör"
+  id: "KD"
+  nameTagFormat: "§7%nickname%"
+  chatFormat: "§7%nickname% §8» §7%message%"
+  aliases: []
+  permissions: []
+  inheritance: []
+Moderatör:
+  name: "Moderatör"
+  id: "KD"
+  nameTagFormat: "§b%nickname%"
+  chatFormat: "§b%nickname% §8» §3%message%"
+  aliases: []
+  permissions: []
+  inheritance: []
+Görevli:
+  name: "Görevli"
+  id: "Görevli"
+  nameTagFormat: "§6%nickname%"
+  chatFormat: "§6%nickname% §8» §6%message%"
+  aliases: []
+  permissions: []
+  inheritance: []
+Mimar:
+  name: "Mimar"
+  id: "Mimar"
+  nameTagFormat: "§7%nickname%"
+  chatFormat: "§7%nickname% §8» §7%message%"
+  aliases: []
+  permissions: []
+  inheritance: []
+Tasarımcı:
+  name: "Tasarımcı"
+  id: "Tasarımcı"
+  nameTagFormat: "§f%nickname%"
+  chatFormat: "§f%nickname% §8» §f%message%"
+  aliases: []
+  permissions: []
+  inheritance: []
+Sponsor:
+  name: "Sponsor"
+  id: "Sponsor"
+  nameTagFormat: "§f%nickname%"
+  chatFormat: "§f%nickname% §8» §g%message%"
+  aliases: []
+  permissions: []
+  inheritance: []
+Partner:
+  name: "Partner"
+  id: "Partner"
+  nameTagFormat: "§f%nickname%"
+  chatFormat: "§f%nickname% §8» §f%message%"
+  aliases: []
+  permissions: []
+  inheritance: []
+MVIP:
+  name: "MVIP"
+  id: "MVIP"
+  nameTagFormat: "§d%nickname%"
+  chatFormat: "§d%nickname% §8» §g%message%"
+  aliases: []
+  permissions: []
+  inheritance: []
+VIPPlus:
+  name: "VIP+"
+  id: "VIP+"
+  nameTagFormat: "§g%nickname%"
+  chatFormat: "§g%nickname% §8» §6%message%"
+  aliases: []
+  permissions: []
+  inheritance: []
+VIP:
+  name: "VIP"
+  id: "VIP"
+  nameTagFormat: "§f%nickname%"
+  chatFormat: "§f%nickname% §8» §3%message%"
+  aliases: []
+  permissions: []
+  inheritance: []
+Nova:
+  name: "Nova"
+  id: "Nova"
+  nameTagFormat: "§7%nickname%"
+  chatFormat: "§7%nickname% §8» §7%message%"
+  aliases: []
+  permissions: []
+  inheritance: []
+Meta:
+  name: "Meta"
+  id: "Meta"
+  nameTagFormat: "§7%nickname%"
+  chatFormat: "§7%nickname% §8» §7%message%"
+  aliases: []
+  permissions: []
+  inheritance: []
+Prime:
+  name: "Prime"
+  id: "Prime"
+  nameTagFormat: "§7%nickname%"
+  chatFormat: "§7%nickname% §8» §7%message%"
+  aliases: []
+  permissions: []
+  inheritance: []
+Oyuncu:
+  name: "Oyuncu"
+  id: "Oyuncu"
+  nameTagFormat: "§7%nickname%"
+  chatFormat: "§7%nickname% §8» §7%message%"
+  aliases: []
+  permissions: []
+  inheritance: []

@@ -1,0 +1,19 @@
+proxy-ip: "179.61.147.21"
+
+default-board: default
+
+boards:
+  default:
+    title: "§l§cRED§fFOX §gBETA§r"
+    lines:
+      - "§eOyuncu Bilgileri"
+      - "§6Adın: §g%graphic:player%"
+      - "§6Paran: §g%graphic:money%"
+      - "§6Ada Seviyesi: §g%graphic:level%"
+      - "§6Rütbe: §g%graphic:rank%"
+      #- "§8---------------"
+      - ""
+      - "§eSunucu Bİlgileri"
+      - "§6Aktiflik: §g%graphic:online%/%graphic:online_max%"
+      - "§6TPS: §g%graphic:tps%"
+      - "§6www.redfoxmc.com"
