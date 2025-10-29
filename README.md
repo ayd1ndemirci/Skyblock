@@ -5,6 +5,11 @@ Skyblock Core of RedFox
 # ACIKLAMA
 Bu proje, başlangıçta RedFox Skyblock olarak geliştirilmiş olup, proje sahibinin ilgi ve süreklilik kaybı nedeniyle aktif olarak devam ettirilememiştir. Bu nedenle, MC:BE topluluğuna örnek teşkil etmesi ve referans olarak kullanılabilmesi amacıyla paylaşıma açılmıştır.
 
+# Teknolojiler
+ - Kotlin
+ - MongoDB
+ - Redis
+
 # TEŞEKKÜRLER
  - Projede Güney Yılmaz adlı geliştirici tarafından kodlanmış bir eklenti var bu eklentiyi incelemek isterseniz ([Eklenti linki](https://github.com/guneyilmaz0/PermissionS))
  - OguzhanUmutlu ([githubunu kesinlikle inceleyin](https://github.com/OguzhanUmutlu))
